@@ -25,7 +25,7 @@ export default function Header() {
   }
 
   return (
-    <header className="py-5 lg:mx-32 md:mx-20 sm:mx-3.5 z-20 sticky">
+    <header className="py-5 lg:mx-32 md:mx-20 sm:mx-3.5 ">
       <nav className=" ">
         <div className="flex flex-row justify-between items-center">
           <div className="flex shrink-0">
