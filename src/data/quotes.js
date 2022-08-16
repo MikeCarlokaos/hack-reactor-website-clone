@@ -1,4 +1,4 @@
-const qoutes = [
+const qoute = [
   {
     id: 1,
     coverImg:
@@ -25,4 +25,4 @@ const qoutes = [
   },
 ];
 
-export default qoutes;
+export default qoute;

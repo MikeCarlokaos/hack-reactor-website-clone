@@ -1,4 +1,4 @@
-const bootcamps = [
+const bootcamp = [
   {
     id: 1,
     coverImg:
@@ -25,4 +25,4 @@ const bootcamps = [
   },
 ];
 
-export default bootcamps;
+export default bootcamp;
