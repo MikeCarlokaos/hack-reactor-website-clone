@@ -12,6 +12,7 @@ import Story from "./components/Story";
 import stories from "./data/stories";
 import Article from "./components/Article";
 import articles from "./data/articles";
+import Footer from "./components/Footer";
 
 function App() {
   const BootData = bootcamps.map((bootcamp) => {
@@ -38,14 +39,19 @@ function App() {
       <div className="relative">
         <Hero />
         <Main />
-        <section>
-          <h1>Our Coding Bootcamps</h1>
-          {BootData}
+        <section className="flex flex-col items-center justify-center mt-10 ">
+          <h1 className="text-3xl text-bold ">Our Coding Bootcamps</h1>
+          <div className="flex flex-col md:flex-row">{BootData}</div>
         </section>
-        <BootCampArticle />
-        <section>
-          {QuotesData}
-          <Awards />
+        <section className="flex items-center justify-center">
+          <BootCampArticle />
+        </section>
+
+        <section className="flex flex-col items-center justify-center items-stretch p-5 md:flex-row gap-7">
+          <div className="grid grid-cols-1 gap-5">{QuotesData}</div>
+          <div>
+            <Awards />
+          </div>
         </section>
         <ISA />
         <section>
@@ -53,6 +59,7 @@ function App() {
           {StoryData}
         </section>
         <section>{ArticleData}</section>
+        <Footer />
       </div>
     </div>
   );

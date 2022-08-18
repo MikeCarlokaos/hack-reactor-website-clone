@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div>
       <section className="">
-        <div className="bg-[url('https://images.ctfassets.net/yr4qj72ki4ky/1Qm1FWaixBp2nbrIH5ocP6/084e35ebb847dcfc07fb1062417a9332/heroimageHackReactor.jpg?q=72')] flex flex-col w-screen h-96 bg-no-repeat bg-cover big-fit bg-center object-none items-center justify-center text-center text-white font-serif md:h-screen px-30 bg-left">
+        <div className="bg-[url('https://images.ctfassets.net/yr4qj72ki4ky/1Qm1FWaixBp2nbrIH5ocP6/084e35ebb847dcfc07fb1062417a9332/heroimageHackReactor.jpg?q=72')] flex flex-col w-screen h-96 bg-no-repeat bg-cover bg-center object-none items-center justify-center text-center text-white font-serif md:h-screen px-30 bg-left">
           <h1 className=" text-2xl mb-10 mt-20 md:text-3xl mb-10 lg:text-5xl mb-10">
             The Industry's Best Coding Bootcamps For Aspiring Software Engineers
           </h1>
