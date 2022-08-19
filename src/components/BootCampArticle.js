@@ -1,7 +1,7 @@
 export default function Article() {
   return (
     <article className="box-border flex flex-col items-center justify-center p-10 md:px-36">
-      <h1 className="hidden md:block text-3xl text-bold mb-8">
+      <h1 className="hidden md:block text-3xl font-bold mb-8">
         Which bootcamp are you?
       </h1>
 
@@ -14,10 +14,10 @@ export default function Article() {
           />
         </div>
         <div className="p-5 flex flex-col items-center md:p-2">
-          <h1 className="text-xl text-bold mb-4">
+          <h1 className="text-xl font-bold mb-4">
             Comparing our Software Engineering Immersives
           </h1>
-
+          <br />
           <p>
             No matter which of our programs you choose, the outcome will be the
             same: You'll graduate as a job-ready full-stack software engineer.

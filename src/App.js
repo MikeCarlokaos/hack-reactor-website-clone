@@ -40,7 +40,7 @@ function App() {
         <Hero />
         <Main />
         <section className="flex flex-col items-center justify-center mt-10 ">
-          <h1 className="text-3xl text-bold ">Our Coding Bootcamps</h1>
+          <h1 className="text-3xl font-bold ">Our Coding Bootcamps</h1>
           <div className="flex flex-col md:flex-row">{BootData}</div>
         </section>
         <section className="flex items-center justify-center">
@@ -53,13 +53,18 @@ function App() {
             <Awards />
           </div>
         </section>
-        <ISA />
-        <section>
-          <h1>Alumni Stories</h1>
-          {StoryData}
+        <section className="flex items-center justify-center">
+          <ISA />
         </section>
-        <section>{ArticleData}</section>
-        <Footer />
+        <section className="flex flex-col items-center">
+          <h1 className="text-3xl font-bold mb-6">Alumni Stories</h1>
+          <div className="gap-x-5 md:flex">{StoryData}</div>
+        </section>
+        <section className="grid gap-5 mt-10">{ArticleData}</section>
+
+        <section className="mt-10">
+          <Footer />
+        </section>
       </div>
     </div>
   );
