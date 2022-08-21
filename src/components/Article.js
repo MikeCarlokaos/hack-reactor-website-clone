@@ -14,7 +14,7 @@ export default function Article(props) {
           <p>{props.description}</p>
         </div>
         <div className="px-10 py-5 md:px-6">
-          <button className="w-40 border-solid border border-cerulean-500 text-cerulean-500  px-10 py-2  whitespace-nowrap hover:bg-cerulean-500 ease-in hover:text-white ease-in md:px-8">
+          <button className="w-40 border-solid border border-cerulean-500 text-cerulean-500  px-10 py-1.5 whitespace-nowrap rounded hover:bg-cerulean-500 ease-in hover:text-white ease-in delay-100 duration-75 md:px-8">
             Learn More
           </button>
         </div>

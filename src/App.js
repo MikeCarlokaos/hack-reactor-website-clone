@@ -36,12 +36,14 @@ function App() {
       <div className="z-50 sticky top-0 bg-white">
         <Header />
       </div>
-      <div className="relative">
-        <Hero />
+      <div>
+        <div className="mb-10 mt-0">
+          <Hero />
+        </div>
         <Main />
         <section className="flex flex-col items-center justify-center mt-10 ">
-          <h1 className="text-3xl font-bold ">Our Coding Bootcamps</h1>
-          <div className="flex flex-col md:flex-row">{BootData}</div>
+          <h1 className="text-3xl font-bold mb-10 ">Our Coding Bootcamps</h1>
+          <div className="flex flex-col gap-x-5 md:flex-row">{BootData}</div>
         </section>
         <section className="flex items-center justify-center">
           <BootCampArticle />

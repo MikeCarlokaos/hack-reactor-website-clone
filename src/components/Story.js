@@ -1,7 +1,7 @@
 export default function Story(props) {
   return (
-    <article>
-      <div className="flex flex-col items-center justify-center shadow-custom2">
+    <article className="place-item-stretch">
+      <div className="flex flex-col items-center justify-center shadow-custom2 h-">
         <div className="w-72 h-80">
           <img
             src={props.coverImg}
@@ -9,7 +9,7 @@ export default function Story(props) {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="flex flex-col items-center w-72 p-2">
+        <div className="flex flex-col items-center w-72 p-2 ">
           <h1 className="text-3xl font-bold">{props.title}</h1>
           <p>{props.description}</p>
           <div className="px-16 py-5 md:px-8">
