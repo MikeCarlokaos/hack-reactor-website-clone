@@ -1,7 +1,7 @@
 export default function Story(props) {
   return (
     <article className="place-item-stretch">
-      <div className="flex flex-col items-center justify-center shadow-custom2 h-">
+      <div className="flex flex-col items-center justify-center shadow-custom2 h-full">
         <div className="w-72 h-80">
           <img
             src={props.coverImg}

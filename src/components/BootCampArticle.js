@@ -1,4 +1,4 @@
-export default function Article() {
+export default function BootCampArticle() {
   return (
     <article className="box-border flex flex-col items-center justify-center p-10 md:px-36">
       <h1 className="hidden md:block text-3xl font-bold mb-8">
