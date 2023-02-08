@@ -12,7 +12,7 @@ export default function BootCamp(props) {
         <div className="flex flex-col items-center w-72 p-2">
           <h1 className="text-2xl">{props.title}</h1>
           <br />
-          <p className="text-left">{props.description}</p>
+          <p className="text-left h-36 mb-5">{props.description}</p>
         </div>
         <div className="">
           <button className="border-solid border border-cerulean-500 text-cerulean-500 px-16 py-2 mt-6 mb-10 hover:bg-cerulean-500 ease-in hover:text-white ease-in">
